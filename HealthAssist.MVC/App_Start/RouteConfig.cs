@@ -12,9 +12,9 @@ namespace HealthAssist.MVC
     {
         public static void RegisterRoutes(RouteCollection routes)
         {
-            routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
+            //routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
-            routes.Add(new Route("home/about", new SampleRouteHandler()));
+            //routes.Add(new Route("home/about", new SampleRouteHandler()));
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
